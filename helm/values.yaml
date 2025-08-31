@@ -1,0 +1,7 @@
+replicaCount: 1
+image:
+  repository: ahmedhassan98/ebryx-flask
+  tag: "latest"
+service:
+  type: ClusterIP
+  port: 80
